@@ -1,0 +1,21 @@
+{
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "diffEditor.codeLens": true,
+    "emmet.triggerExpansionOnTab": true,
+    "editor.tabCompletion": "on",
+    "emmet.includeLanguages": {"javascript": "javascriptreact"},
+
+  "prettier.documentSelectors": ["**/*.php"],
+"emmet.includeLanguages": {
+    "your-language": "html",
+    "rust": "html",
+    "php": "html",
+    "javascript": "html",
+},
+"editor.defaultFormatter": "esbenp.prettier-vscode",
+  // add this code 
+  "[php]": {
+      "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  }
+}
