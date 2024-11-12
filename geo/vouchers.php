@@ -53,7 +53,6 @@
                     </div>
 
                     <div class="font-Montserrat bg-white text-sm lg:text-lg space-y-3 lg:justify-center items-center text-black w-[90%]  lg:w-[496px] mr-10 mb-10 pl-5 pt-5 pr-5 pb-5 rounded-lg ml-10 lg:mt-12 mt-5 text-left  ">
-
                             <p>
                                 ისარგებლე ფასდაკლებით ბიორევიტალიზაციის პროცედურაზე.
                             </p>

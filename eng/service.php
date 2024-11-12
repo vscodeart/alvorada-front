@@ -8,9 +8,11 @@
             <div class="h-96 lg:w-72 w-full rounded-lg overflow-hidden shadow-lg border border-gray-200 bg-cover bg-center flex flex-col justify-end" style="background-image: url('images/cosmetology.png');">
                 <div class="bg-[#8FB0AE] bg-opacity-75 w-full text-center p-6 rounded-lg border border-[#7A9F9B]">
                     <p class="text-white text-4xl font-semibold mb-4 font-Cirka">Cosmetology</p>
-                    <button class="bg-[#8FB0AE] text-white font-semibold font-Montserrat py-2 px-6 rounded-lg shadow hover:brightness-105 border">
-                        Learn more
-                    </button>
+                    <a href="cosmetology.php">
+                        <button class="bg-[#8FB0AE] text-white font-semibold font-Montserrat py-2 px-6 rounded-lg shadow hover:brightness-105 border">
+                            Learn more
+                        </button>
+                    </a>
                 </div>
             </div>
         </div>

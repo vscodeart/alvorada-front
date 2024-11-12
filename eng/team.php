@@ -71,17 +71,6 @@
             </div>
 
             <div>
-                <img src="images/team/6.png" class="w-96 rounded-xl">
-                <div class="w-full  ">
-                    <div class="mx-5 shadow-lg mr-4 -mt-8 relative flex flex-col rounded-lg justify-center items-center bg-white h-36">
-                        <div class="text-2xl font-semibold font-Cirka">Gaga Tkemaladze</div>
-                        <div class="mt-3 text-[#AA714B] text-normal font-Montserrat">Spa Therapist</div>
-
-                    </div>
-                </div>
-
-            </div>
-            <div>
                 <img src="images/team/7.png" class="w-96 rounded-xl">
                 <div class="w-full  ">
                     <div class="mx-5 shadow-lg mr-4 -mt-8 relative flex flex-col rounded-lg justify-center items-center bg-white h-36">

@@ -46,10 +46,9 @@
             <div class="w-10/12 mt-5 mb-5 shadow-lg rounded bg-stone-100">
                 <p class="pt-2 pb-2 pl-4 pr-2 font-light text-black font-Montserrat">
                     Alvorada's mission is simple: to ensure that our customers best express their inner and outer beauty - by creating personalized aesthetic and wellness experiences.</p>
-                <div
-                    class="border ml-3 mb-5 mt-3 rounded-3xl border-stone-800 inline-block  text-stone-800 pt-1 pb-1 pr-4 pl-4 font-Montserrat">
-                    Learn more
-                </div>
+<!--                <div class="border ml-3 mb-5 mt-3 rounded-3xl border-stone-800 inline-block  text-stone-800 pt-1 pb-1 pr-4 pl-4 font-Montserrat">-->
+<!--                    Learn more-->
+<!--                </div>-->
             </div>
         </div>
         <div class="flex flex-col bg-white border border-amber-900 items-center rounded-xl ">
@@ -59,10 +58,9 @@
             <div class="w-10/12 mt-5 mb-5 shadow-lg rounded bg-stone-100">
                 <p class="pt-2 pb-2 pl-4 pr-2  font-light text-black font-Montserrat">
                     To be the premier destination where beauty, wellness and self-expression come together, inspiring people to live a balanced, confident lifestyle.</p>
-                <div
-                        class="border ml-3 mb-5 mt-3 rounded-3xl border-stone-800 inline-block  text-stone-800 pt-1 pb-1 pr-4 pl-4 font-Montserrat">
-                    Learn more
-                </div>
+<!--                <div class="border ml-3 mb-5 mt-3 rounded-3xl border-stone-800 inline-block  text-stone-800 pt-1 pb-1 pr-4 pl-4 font-Montserrat">-->
+<!--                    Learn more-->
+<!--                </div>-->
             </div>
         </div>
         <div class="flex flex-col bg-white border border-amber-900 items-center rounded-xl ">
@@ -72,10 +70,9 @@
             <div class="w-10/12 mt-5 mb-5 shadow-lg rounded bg-stone-100">
                 <p class="pt-2 pb-2 pl-4  pr-2 font-light text-black font-Montserrat">
                     Our goal is to create a unique customer experience that focuses on offering personalized services and implementing innovative technologies.</p>
-                <div
-                    class="border ml-3 mb-5 mt-3 rounded-3xl border-stone-800 inline-block  text-stone-800 pt-1 pb-1 pr-4 pl-4 font-Montserrat">
-                    Learn more
-                </div>
+<!--                <div class="border ml-3 mb-5 mt-3 rounded-3xl border-stone-800 inline-block  text-stone-800 pt-1 pb-1 pr-4 pl-4 font-Montserrat">-->
+<!--                    Learn more-->
+<!--                </div>-->
             </div>
         </div>
 
