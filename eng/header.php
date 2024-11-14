@@ -7,6 +7,8 @@ if($p == "home" || !$p) {
     $bg_image = "home.jpg";
 } else if ($p == "service") {
     $bg_image = "services.png";
+} else if ($p == "whoweare") {
+    $bg_image = "whoweare_cover.png";
 } else if ($p == "team") {
     $bg_image = "team.png";
 } else if ($p == "gallery") {
@@ -16,6 +18,8 @@ if($p == "home" || !$p) {
 } else if ($p == "vouchers") {
     $bg_image = "voucher.png";
 } else if ($p == "blog") {
+    $bg_image = "blog.png";
+} else if ($p == "blog_fullstory") {
     $bg_image = "blog.png";
 } else if ($p == "contact") {
     $bg_image = "contact.png";
@@ -94,7 +98,7 @@ if($p == "home" || !$p) {
 
             <div class="hidden lg:flex lg:gap-x-5">
                 <a href="index.php" <?php if($p == "home" || !$p) echo "class='font-bold'"; ?> >Home</a>
-                <a href="#" >Who We Are</a>
+                <a href="whoweare.php?p=whoweare"  <?php if($p == "whoweare" || !$p) echo "class='font-bold'"; ?> >Who We Are</a>
                 <a href="service.php?p=service" <?php if($p == "service") echo "class='font-bold'"; ?> >Services</a>
                 <a href="team.php?p=team" <?php if($p == "team") echo "class='font-bold'"; ?>>Our Team</a>
                 <a href="gallery.php?p=gallery" <?php if($p == "gallery") echo "class='font-bold'"; ?>>Gallery</a>
@@ -135,7 +139,6 @@ if($p == "home" || !$p) {
             </div>
 
             <div class="hidden lg:flex lg:gap-x-5 lg:justify-end">
-
                 <a href="brands.php?p=brands" <?php if($p == "brands") echo "class='font-bold'"; ?> >Brands We Trust</a>
                 <a href="vouchers.php?p=vouchers" <?php if($p == "vouchers") echo "class='font-bold'"; ?> >Vouchers & Promotions</a>
                 <a href="blog.php?p=blog" <?php if($p == "blog") echo "class='font-bold'"; ?> >Blog</a>
@@ -215,6 +218,14 @@ if($p == "home" || !$p) {
     <?php
     }
 
+    if($p == "whoweare") {
+        ?>
+        <div class="flex flex-col flex-grow justify-center text-center bg-cover bg-center items-center h-full">
+            <p class="text-6xl font-Cirka font-bold text-white mb-7 lg:mr-10">Who We are</p>
+        </div>
+        <?php
+    }
+
     if($p == "service") {
         ?>
         <div class="flex flex-col flex-grow justify-center text-center bg-cover bg-center items-center h-full">
@@ -256,6 +267,14 @@ if($p == "home" || !$p) {
     }
 
     if($p == "blog") {
+        ?>
+        <div class="flex flex-col flex-grow justify-center text-center bg-cover bg-center items-center h-full">
+            <p class="text-6xl font-Cirka font-bold text-white mb-7 lg:mr-10">Blog</p>
+        </div>
+        <?php
+    }
+
+    if($p == "blog_fullstory") {
         ?>
         <div class="flex flex-col flex-grow justify-center text-center bg-cover bg-center items-center h-full">
             <p class="text-6xl font-Cirka font-bold text-white mb-7 lg:mr-10">Blog</p>

@@ -7,6 +7,8 @@ if($p == "home" || !$p) {
     $bg_image = "home.jpg";
 } else if ($p == "service") {
     $bg_image = "services.png";
+} else if ($p == "whoweare") {
+    $bg_image = "whoweare_cover.png";
 } else if ($p == "team") {
     $bg_image = "team.png";
 } else if ($p == "gallery") {
@@ -91,9 +93,9 @@ if($p == "home" || !$p) {
 
             </div>
 
-            <div class="hidden lg:flex lg:gap-x-5 font-Contractica">
+            <div class="hidden lg:flex lg:gap-x-5">
                 <a href="index.php" <?php if($p == "home" || !$p) echo "class='font-bold'"; ?> >მთავარი</a>
-                <a href="#" >ვინ ვართ ჩვენ</a>
+                <a href="whoweare.php?p=whoweare"  <?php if($p == "whoweare") echo "class='font-bold'"; ?> >ვინ ვართ ჩვენ</a>
                 <a href="service.php?p=service" <?php if($p == "service") echo "class='font-bold'"; ?> >სერვისები</a>
                 <a href="team.php?p=team" <?php if($p == "team") echo "class='font-bold'"; ?>>ჩვენი გუნდი</a>
                 <a href="gallery.php?p=gallery" <?php if($p == "gallery") echo "class='font-bold'"; ?>>გალერეა</a>
@@ -211,6 +213,15 @@ if($p == "home" || !$p) {
     </div>
     <?php
     }
+
+    if($p == "whoweare") {
+        ?>
+        <div class="flex flex-col flex-grow justify-center text-center bg-cover bg-center items-center h-full">
+            <p class="lg:text-6xl text-4xl font-Cirka font-bold text-white mb-7 lg:mr-10">ვინ ვართ ჩვენ</p>
+        </div>
+        <?php
+    }
+
 
     if($p == "service") {
         ?>

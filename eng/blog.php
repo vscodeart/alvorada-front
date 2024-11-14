@@ -15,9 +15,9 @@
                     labore et dolore magna
                     aliqua. Ut enim ad minim veniam,
                     <div class="grid mt-4 grid-cols-2 grid-rows-1">
-                        <div class="border py-1 border-black w-3/4 inline-block text-large rounded-2xl px-1 text-center font-semibold">
-                            Learn
-                            More</div>
+                        <a href="blog_fullstory.php?p=blog_fullstory">
+                            <div class="border py-1 border-black w-3/4 inline-block text-large rounded-2xl px-1 text-center font-semibold">Learn More</div>
+                        </a>
                         <div class="flex justify-end text-[#AA714B] mt-1">October 3, 2024</div>
                     </div>
                 </div>
@@ -35,9 +35,9 @@
                         labore et dolore magna
                         aliqua. Ut enim ad minim veniam,
                         <div class="grid mt-4 grid-cols-2 grid-rows-1">
-                            <div class="border py-1 border-black w-3/4 inline-block text-large rounded-2xl px-1 text-center font-semibold">
-                                Learn
-                                More</div>
+                            <a href="blog_fullstory.php?p=blog_fullstory">
+                                <div class="border py-1 border-black w-3/4 inline-block text-large rounded-2xl px-1 text-center font-semibold">Learn More</div>
+                            </a>
                             <div class="flex justify-end text-[#AA714B] mt-1">October 3, 2024</div>
                         </div>
                     </div>
@@ -56,9 +56,9 @@
                         labore et dolore magna
                         aliqua. Ut enim ad minim veniam,
                         <div class="grid mt-4 grid-cols-2 grid-rows-1">
-                            <div class="border py-1 border-black w-3/4 inline-block text-large rounded-2xl px-1 text-center font-semibold">
-                                Learn
-                                More</div>
+                            <a href="blog_fullstory.php?p=blog_fullstory">
+                                <div class="border py-1 border-black w-3/4 inline-block text-large rounded-2xl px-1 text-center font-semibold">Learn More</div>
+                            </a>
                             <div class="flex justify-end text-[#AA714B] mt-1">October 3, 2024</div>
                         </div>
                     </div>
